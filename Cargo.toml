@@ -1,0 +1,37 @@
+[package]
+name = "boost_python"
+description = "Boost C++ library boost_python packaged using Zanbil"
+version = "0.1.0"
+edition = "2024"
+links = "boost_python"
+license = "BSL-1.0"
+repository = "https://github.com/zanbilify/boost_python"
+
+[package.metadata.zanbil]
+make_dependencies_public = true
+
+[dependencies]
+boost_align = { version = "0.1.0", path = "../boost_align" }
+boost_bind = { version = "0.1.0", path = "../boost_bind" }
+boost_config = { version = "0.1.0", path = "../boost_config" }
+boost_conversion = { version = "0.1.0", path = "../boost_conversion" }
+boost_core = { version = "0.1.0", path = "../boost_core" }
+boost_detail = { version = "0.1.0", path = "../boost_detail" }
+boost_foreach = { version = "0.1.0", path = "../boost_foreach" }
+boost_function = { version = "0.1.0", path = "../boost_function" }
+boost_graph = { version = "0.1.0", path = "../boost_graph" }
+boost_integer = { version = "0.1.0", path = "../boost_integer" }
+boost_iterator = { version = "0.1.0", path = "../boost_iterator" }
+boost_lexical_cast = { version = "0.1.0", path = "../boost_lexical_cast" }
+boost_mpl = { version = "0.1.0", path = "../boost_mpl" }
+boost_numeric_conversion = { version = "0.1.0", path = "../boost_numeric_conversion" }
+boost_preprocessor = { version = "0.1.0", path = "../boost_preprocessor" }
+boost_property_map = { version = "0.1.0", path = "../boost_property_map" }
+boost_smart_ptr = { version = "0.1.0", path = "../boost_smart_ptr" }
+boost_static_assert = { version = "0.1.0", path = "../boost_static_assert" }
+boost_tuple = { version = "0.1.0", path = "../boost_tuple" }
+boost_type_traits = { version = "0.1.0", path = "../boost_type_traits" }
+boost_utility = { version = "0.1.0", path = "../boost_utility" }
+
+[build-dependencies]
+zanbil-boost-build = "0.1.0"
